@@ -1,1 +1,24 @@
+Create a Python virtual environment named `ml-env` under /root/code/ and activate it:
 
+```
+python3 -m venv ml-env
+source ml-env/bin/activate
+```
+
+The environment has numpy, pandas, scikit-learn, and matplotlib installed:
+
+```
+pip install numpy pandas scikit-learn matplotlib
+```
+
+To verify afterward:
+
+```
+pip list
+```
+
+Create a requirements.txt capturing the installed packages is saved at /root/code/requirements.txt
+
+```
+pip freeze > /root/code/requirements.txt
+```
